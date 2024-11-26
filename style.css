@@ -24,18 +24,63 @@
     align-items: center;
     overflow: hidden;
 }
-
-.circle {
-     height: 70px;
-    width: 70px;
-    background: radial-gradient(ellipse at center, ivory, tan);
-    border-radius: 50%;
-}
     
 #earth{
-
+    width:100%;
+    height: 100%;
+    background: #1035ac;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
 }
 
-.circle{
-    
+#mars{
+    width:100%;
+    height: 100%;
+    background: #e27b58;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
+}
+
+#jupiter{
+    width:100%;
+    height: 100%;
+    background: #f8ccaf;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
+}
+
+#saturn{
+    width:100%;
+    height: 100%;
+    background: #c3a171;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
+}
+
+#uranus{
+    width: 100%;
+    height: 100%;
+    background-color: #ace5ee ;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
+}
+
+#neptune{
+    width:100%;
+    height: 100%;
+    background: #3050bd;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
 }
