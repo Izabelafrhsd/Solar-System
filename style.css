@@ -1,19 +1,41 @@
-html
-Mercury  {
+#mercury{
     width:100%;
-    height: 3.3%;
-    background: #999090 , #b9b0b0;
+    height: 100%;
+    background: #999090;
     display: flex;
     justify-content: bottom left;
     align-items: center;
     overflow: hidden;
-    shape-outside: circle(50px);
-    shape-outside: circle(6rem at left center);
-    clip-path: circle(10%at 2rem 90%);
-    clip-path: circle(closest-side at 5rem 6rem);
-    clip-path: circle(farthest-side);
 }
 
-Venus {
+.circle {
+    height: 50px;
+    width: 50px;
+    background: radial-gradient(ellipse at center, lightgrey, grey);
+    border-radius: 50%;
+}
 
+#venus{
+    width:100%;
+    height: 100;
+    background: #dbd5b0;
+    display: flex;
+    justify-content: bottom left;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle {
+     height: 70px;
+    width: 70px;
+    background: radial-gradient(ellipse at center, ivory, tan);
+    border-radius: 50%;
+}
+    
+#earth{
+
+}
+
+.circle{
+    
 }
